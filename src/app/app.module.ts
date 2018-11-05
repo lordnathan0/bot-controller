@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JoystickComponent } from './joystick/joystick.component';
+import { MqttControllerComponent } from './mqtt-controller/mqtt-controller.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JoystickComponent
+    JoystickComponent,
+    MqttControllerComponent
   ],
   imports: [
     BrowserModule,
