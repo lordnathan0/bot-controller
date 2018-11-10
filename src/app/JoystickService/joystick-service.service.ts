@@ -1,9 +1,6 @@
 import { Injectable } from '@angular/core';
 import nipplejs from 'nipplejs';
 
-@Injectable({
-  providedIn: 'root'
-})
 export class JoystickServiceService {
   manager;
   nipple;
